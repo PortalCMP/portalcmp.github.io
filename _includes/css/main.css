@@ -58,11 +58,13 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #{{ site.color.secondary }};
+    /*border-color: #fff;*/
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #{{ site.color.secondary }};
+    /*color: #fff;*/
     background-color: #{{ site.color.primary }};
 }
 
@@ -257,8 +259,7 @@ section.success {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #{{ site.color.secondary }};
-    /*color: #fff;*/
+    color: #fff;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -268,8 +269,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.secondary }};
-    /*color: #{{ site.color.primary }};*/
+    color: #{{ site.color.primary }};
     background: #fff;
 }
 
