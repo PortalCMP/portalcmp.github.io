@@ -47,7 +47,7 @@ address:
   - line: Cuiabá - MT - 78055-508
 
 # Credits content
-credits: 'Entre em contato conosco'
+credits: '<a href="#contact">Entre em contato conosco</a>'
 
 # Build settings
 markdown: kramdown
