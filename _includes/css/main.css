@@ -261,7 +261,8 @@ section.success {
 
 .btn-send:hover,
 .btn-send:focus,
-{
+.btn-send:active,
+.btn-send.active  {
     color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};;
 }
@@ -280,7 +281,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
     background: #fff;
 }
 
