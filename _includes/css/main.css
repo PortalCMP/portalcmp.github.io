@@ -263,8 +263,9 @@ section.success {
 .btn-send:focus,
 .btn-send:active,
 .btn-send.active  {
+    border: solid 2px #{{ site.color.primary }};
     color: #{{ site.color.secondary }};
-    background: #{{ site.color.primary }};;
+    background: #{{ site.color.primary }};
 }
 
 .btn-outline {
