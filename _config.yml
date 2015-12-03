@@ -31,15 +31,17 @@ color:
 
 # Footer settings
 footer:
-  copyright: Adriana e Marcelo Mogami
+  copyright: Adriana e Marcelo Mogami -
   location: Condomínio Morada do Parque
   social:
   credits: Anuncie Aqui
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/celo
+  - title: facebook
+    url: http://facebook.com/drikamogami
+  - title: facebook
+    url: http://facebook.com/marcelomogami
 
 # Postal address (add as many lines as necessary)
 address:
