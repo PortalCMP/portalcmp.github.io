@@ -255,6 +255,17 @@ section.success {
     }
 }
 
+.btn-send {
+    background: #{{ site.color.secondary }};;
+}
+
+.btn-send:hover,
+.btn-send:focus,
+{
+    color: #{{ site.color.secondary }};
+    background: #{{ site.color.primary }};;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
