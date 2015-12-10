@@ -1,0 +1,26 @@
+
+    <!-- Classified Grid Section -->
+    <section id="classified">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Classificados</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                {% for post in site.categories.classified %}
+                    <div class="col-sm-4 classified-item">
+                        <a href="#classifiedModal-{{ post.modal-id }}" class="classified-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/classified/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
