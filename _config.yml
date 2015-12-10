@@ -49,7 +49,7 @@ address:
   - line: Cuiabá - MT - 78055-508
 
 # Credits content
-credits: '<a href="#contact">Entre em contato conosco</a>'
+credits: '<div class="page-scroll"><a href="#contact">Entre em contato conosco</a><div>'
 
 # Build settings
 markdown: kramdown
