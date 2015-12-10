@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.categories.classified %}
+                {% for post in site.categories.classified reversed %}
                     <div class="col-sm-4 classified-item">
                         <a href="#classifiedModal-{{ post.modal-id }}" class="classified-link" data-toggle="modal">
                             <div class="caption">
