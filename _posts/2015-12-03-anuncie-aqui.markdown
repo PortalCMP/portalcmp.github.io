@@ -2,7 +2,8 @@
 layout: default
 modal-id: 3
 date: 2015-12-03
-img: anuncie-aqui.png
+home-thumb: anuncie-aqui.png
+img1: anuncie-aqui.png
 alt: image-alt
 type: Anuncie Aqui
 category: services
