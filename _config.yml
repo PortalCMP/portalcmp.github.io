@@ -54,6 +54,3 @@ credits: '<div class="page-scroll"><a href="#contact">Entre em contato conosco</
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-gems: ['kramdown']
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
