@@ -14,13 +14,25 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/service/{{ post.images[0].img }}" class="img-responsive img-centered" alt="{{ post.images[0].alt }}">
                             <div class="row">
-                            {% for image in post.images %}
-                                <div class="col-sm-2 service-item">
-                                        <img src="img/service/{{ image.img }}" class="img-responsive img-centered" alt="{{ image.alt }}">
+                                <div id="carousel-{{ post.modal-id }}" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    {% for image in post.images %}
+                                        <li data-target="#carousel-{{ post.modal-id }}" data-slide-to="{{ image.img-id }}"></li>
+                                    {% endfor %}
+                                  </ol>
+
+                                  <!-- Wrapper for slides -->
+                                  <div class="carousel-inner" role="listbox">
+                                    {% for image in post.images %}
+                                    <div class="item">
+                                      <img src="img/service/{{ image.img }}" class="img-responsive img-centered" alt="{{ image.alt }}">
+                                    </div>
+                                    {% endfor %}
+                                  </div>
+
                                 </div>
-                            {% endfor %}
                             </div>
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">

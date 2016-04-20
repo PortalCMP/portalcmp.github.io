@@ -4,15 +4,20 @@ modal-id: 1
 date: 2015-12-01
 home-thumb: cabin.png 
 images:
-  - img: cake.png
+  - img-id: 1
+    img: cake.png
     alt: cake-alt
-  - img: circus.png
+  - img-id: 2
+    img: circus.png
     alt: circus-alt
-  - img: game.png
+  - img-id: 3
+    img: game.png
     alt: game-alt
-  - img: safe.png
+  - img-id: 4
+    img: safe.png
     alt: safe-alt
-  - img: submarine.png
+  - img-id: 5
+    img: submarine.png
     alt: submarine-alt
 alt: image-alt
 type: Teste de thumb e galeria
