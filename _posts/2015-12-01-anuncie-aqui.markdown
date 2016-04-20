@@ -2,21 +2,21 @@
 layout: default
 modal-id: 1
 date: 2015-12-01
-home-thumb: cabin.png 
+home-thumb: cabin.png
 images:
-  - img-id: 1
+  - img-id: 0
     img: cake.png
     alt: cake-alt
-  - img-id: 2
+  - img-id: 1
     img: circus.png
     alt: circus-alt
-  - img-id: 3
+  - img-id: 2
     img: game.png
     alt: game-alt
-  - img-id: 4
+  - img-id: 3
     img: safe.png
     alt: safe-alt
-  - img-id: 5
+  - img-id: 4
     img: submarine.png
     alt: submarine-alt
 alt: image-alt

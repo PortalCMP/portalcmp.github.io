@@ -476,7 +476,7 @@ footer .footer-below {
     font-size: 3em;
 }
 
-.service-modal .modal-content img {
+.service-modal .modal-content .modal-image {
     margin-bottom: 30px;
 }
 
@@ -588,4 +588,37 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+/* Fix bootstrap Carousel with font-awesome */
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
+.carousel-control .fa-chevron-left {
+  left: 50%;
+  margin-left: -10px;
+}
+.carousel-control .fa-chevron-right {
+  right: 50%;
+  margin-right: -10px;
+}
+@media screen and (min-width: 768px) {
+  .carousel-control .fa-chevron-left,
+  .carousel-control .fa-chevron-right {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .carousel-control .fa-chevron-left {
+    margin-left: -10px;
+  }
+  .carousel-control .fa-chevron-right {
+    margin-right: -10px;
+  }
 }
