@@ -3,12 +3,13 @@ layout: default
 modal-id: 7
 date: 2015-12-07
 home-thumb: anuncie-aqui.png
-img1: anuncie-aqui.png
-alt: image-alt
-type: Anuncie Aqui
-category: services
-seller:
-price:
+home-thumb-alt: image-alt
+images:
+  - img-id: 0
+    img: anuncie-aqui.png
+    alt: anuncie aqui
+type: Anúncios
+category: products
 contact: PortalCMP
 description: Anuncie Aqui
 
